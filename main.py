@@ -276,7 +276,7 @@ class AppWindow(QMainWindow):
             self.status_label.setText("Mask image generated successfully!")
 
             # Send the image to the API (DeepAI Image Generation API example)
-            api_key = "sk-f3pZzWRZaeb1kbIyqDjIUWyowOeFQTRSpkFohghWrOrgIbcY"
+            api_key = "Enter_your_Key_here"
             response = self.send_prompt_to_api(prompt, api_key)
 
             if response and response.status_code == 200:
